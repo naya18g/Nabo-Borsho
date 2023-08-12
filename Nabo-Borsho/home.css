@@ -1,0 +1,20 @@
+body{
+    background-repeat:repeat;
+    padding: 30px 60px 30px 60px;
+    background-image: url(https://media.istockphoto.com/id/1033090838/vector/sari-indian-seamless-pattern.jpg?s=612x612&w=0&k=20&c=AiByJkD08a0BwiA73sRKBwHQzq4zcswmRAE8xirERGI=);  
+}
+
+h1{
+    text-align:center;
+    color: gold;
+    font-size: 70px;
+    margin-top:18%;
+}
+h2{
+    text-align:center;
+    color: orange;
+    font-size: 30px; 
+    font-family:cursive;
+    margin-top:8%;
+    margin-left:8%;
+}

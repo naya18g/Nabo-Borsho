@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="form.css">
+        <style>
+         @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+         </style>
+    </head>
+
+    <title>Registration Form</title>                     
+    <body>
+       
+       <div class = "split left">
+        <form action = "/action_page.php">
+            
+         <label for="name" style="color:orange">NAME </label> <br/>
+         <input type="text" id="name" name="name" placeholder= "Enter your name" required>
+         <br/>
+         <br/>
+         <label for="roll" style="color:orange"> Roll No. </label> <br/>
+         <input type="text" id="roll" name="roll" placeholder= "Enter the IITG Roll No." required>
+         <br/> 
+         <br/>
+         <label for="email" style="color:orange">EMAIL (Outlook ID) </label> <br/>
+         <input type="text" id="email" name="email" placeholder= "Enter your Outlook ID" required>
+         <br/> 
+         <br/>
+         <label for="gmail" style="color:orange">GMAIL </label> <br/>
+         <input type="text" id="gmail" name="gmail" placeholder= "Enter your Gmail ID (if any)">
+         <br/> 
+         <br/>
+         <label for="recommend" style="color:orange">What would you prefer ?</label> <br/>
+         
+         <input type="radio" name="re" class="largerRadio" id="opt1" value="no">
+         <span class="bin"> No Dinner </span> <br/> 
+         
+         <input type="radio" name="re" class="largerRadio" id="opt2" value="veg">
+         <span class="bin"> Dinner(Veg) </span> <br/> 
+         
+         <input type="radio" name="re" class="largerRadio" id="opt3" value="nonveg">
+         <span class="bin"> Dinner(Non-Veg) </span> <br/>  
+         <br/>      
+        
+        <button name="button" id = "button" type="submit">Submit</button>
+       </form>
+      </div> 
+
+      <div class = "split right">
+        <button class ="buttonc" type="button" class="btn btn-danger" onclick="document.location='file:///D:/Downloads/vs%20code%20programs/devproject/home.html';">Home</button>
+        <h1 class="head1"> Borsho Boron Registration </h1>
+    </div>
+         
+    </body>
+</html>

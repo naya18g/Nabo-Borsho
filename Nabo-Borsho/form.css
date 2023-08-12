@@ -1,0 +1,116 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image:url(https://wallpaperaccess.com/full/1951962.png);
+}
+     
+.head1{
+    text-align:center;
+    color:rgb(85, 5, 5);
+    margin-top:34%;
+    font-weight: bold;
+}
+ 
+#name{
+    height:40px; 
+    font-size:17px;
+    width :350px;
+}
+
+#roll{
+    width :350px; 
+    height:40px;
+    font-size:17px;
+}
+
+#email{
+    width :350px; 
+    height:40px;
+    font-size:17px;
+}
+
+#gmail{
+    width :350px; 
+    height:40px;
+    font-size:17px;
+}
+
+#button{
+    background-color:orange; 
+    border : none;
+    width:350px;
+    height:40px; 
+    color:rgb(85, 5, 5); 
+    font-size:17px;
+    border:1px transparent aquamarine;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.buttonc{
+    display:flex;
+    border : none;
+    margin-top:3%;
+    margin-left:80%;
+    background-color: rgb(85, 5, 5);
+    font-size:16px;
+    height:32px;
+    width:64px;
+    border-radius: 5px;
+    border:1px transparent rgb(85, 5, 5);
+    color : yellow;
+    text-align: center;
+}
+
+.split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    padding-top: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.left{
+    left: 0;
+    float : left;
+    border: 1px transparent #1b1b32;
+    backdrop-filter: blur(4px);
+    margin: 100px; 
+    margin-top:15px;
+    padding:25px;                         
+    border-radius:10px;       
+    font-size:22px;
+    overflow-y: scroll;
+    margin-bottom : 15px;
+}
+
+input[type="text"],input[type="number"]{
+    width:100%;
+    height:20px ;
+    border-radius: 5px;
+    border:none;
+    padding-left: 10px;
+    margin-top: 2%;           
+}
+
+input.largerRadio {
+    width: 18%;
+    height: 18px;
+}
+
+.right{
+    right: 0;
+    background-repeat: no-repeat;
+    background-position : center;
+    object-fit : scale-down;
+    width : 50%;
+    background-image : url("https://png.pngtree.com/background/20210716/original/pngtree-yellow-wall-texture-background-picture-image_1355214.jpg");
+}
+
+.bin{
+    color:rgb(246, 192, 99);
+    font-size: 22px;
+    font-weight: bold;
+}
